@@ -64,7 +64,7 @@ def extract_cfg(apk_path:str, sensitive_apis : list[str]):
             #Full slice?
 
 if __name__ == "__main__":
-    apk_path = os.path.join("sample.apk")
+    apk_path = os.path.join("app-debug.apk")
     SENSITIVE_APIS_TO_FIND = [
         "Landroid/telephony/SmsManager;->sendTextMessage",
         "Landroid/telephony/TelephonyManager;->getDeviceId",
